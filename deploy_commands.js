@@ -20,9 +20,9 @@ for (const file of commandFiles) {
 const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
 
 //Local Push
-rest.put(Routes.applicationGuildCommands(process.env.APPLICATION_ID, "1008711383354978424"), { body: commands })
-    .then(() => console.log('Successfully registered application commands.'));
+// rest.put(Routes.applicationGuildCommands(process.env.APPLICATION_ID, "1008711383354978424"), { body: commands })
+//     .then(() => console.log('Successfully registered application commands.'));
 
 // Global Push
-// rest.put(Routes.applicationCommands(process.env.APPLICATION_ID), { body: commands })
-//     .then(() => console.log('Successfully registered application commands.'));
+rest.put(Routes.applicationCommands(process.env.APPLICATION_ID), { body: commands })
+    .then(() => console.log('Successfully registered application commands.'));
