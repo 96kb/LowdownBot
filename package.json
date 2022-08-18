@@ -8,13 +8,14 @@
     "deploy": "node deploy_commands.js"
   },
   "keywords": [],
-  "author": "96kb",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^1.0.1",
     "axios": "^0.27.2",
     "discord.js": "^14.2.0",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "lyrics-dumper": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^8.22.0"
