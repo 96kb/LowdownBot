@@ -19,8 +19,8 @@ for (const file of commandFiles) {
 
 const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
 
-//Local Push - no clue why it doesnt work 
-rest.put(Routes.applicationGuildCommands(process.env.APPLICATION_ID, "1009490069758955581"), { body: commands })
+//Local Push - no clue why it doesnt work
+rest.put(Routes.applicationGuildCommands(process.env.APPLICATION_ID, "980098389100363846"), { body: commands })
     .then(() => console.log('Successfully registered application commands.'));
 
 // Global Push

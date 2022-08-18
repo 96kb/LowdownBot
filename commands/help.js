@@ -17,9 +17,9 @@ module.exports = {
                 { name: '`/findlyric`', value: 'Finds the lyrics of any song, using the song name and artist' },
                 { name: '`/translate`', value: 'Translates any phrase/text of your choosing.' },
                 { name: '`/credits`', value: 'Displays server and bot credits' },
-                { name: 'Staff Commands' },
+                { name: 'Staff Commands',  value: 'Commands for staff only!'},
                 { name: '`/ban`', value: 'Bans a user from the server' },
                 { name: '`/kick`', value: 'Kicks a user from the server' }
-            )
+              )
     }
 }
