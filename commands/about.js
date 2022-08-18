@@ -18,5 +18,6 @@ module.exports = {
                 { name: 'When was the server founded?', value: 'The server was first founded in mAy of 2022, being a free roam server. We then switched to a traffic server in July.' },
                 { name: 'Who made the server?', value: 'The server was made and founded by LowdownRX in 2022' },
             )
+        interaction.reply({embeds: [Embed]});
     }
 }

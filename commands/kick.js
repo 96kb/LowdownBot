@@ -12,6 +12,6 @@ module.exports = {
         const user = interaction.options.getUser('user');
         const reason = interaction.options.getString('reason');
         interaction.guild.members.kick(user);
-        await interaction.reply(`${user.username} has been kick for ${reason}.`);
+        await interaction.reply(`${user.username} has been kicked for ${reason}.`);
     }
 }

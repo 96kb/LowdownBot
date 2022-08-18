@@ -21,5 +21,6 @@ module.exports = {
                 { name: '`/ban`', value: 'Bans a user from the server' },
                 { name: '`/kick`', value: 'Kicks a user from the server' }
               )
+        interaction.reply({embeds: [Embed]});
     }
 }

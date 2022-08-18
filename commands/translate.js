@@ -81,7 +81,7 @@ module.exports = {
                 { name: 'Translated', value: a.data.translations[0].text },
             );
 
-        await interaction.reply({ embeds: [Embed], components: [button] });
+        await interaction.reply({ embeds: [Embed] });
     },
 };
 
