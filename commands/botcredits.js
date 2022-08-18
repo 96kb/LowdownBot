@@ -15,14 +15,14 @@ module.exports = {
                     .setEmoji('🧠'),
                 new ButtonBuilder()
                     .setLabel('View My Code!')
-                    .setURL('https://github.com/96kb/KiloBot')
+                    .setURL('https://github.com/96kb/LowdownBot')
                     .setStyle(ButtonStyle.Link)
-                    .setEmoji('🧑‍💻'),
-                new ButtonBuilder()
-                    .setLabel('Invite me to your server!')
-                    .setURL('https://discord.com/api/oauth2/authorize?client_id=1008811174801977494&permissions=2147534912&scope=bot%20applications.commands')
-                    .setStyle(ButtonStyle.Link)
-                    .setEmoji('🔗'))
+                    .setEmoji('🧑‍💻'))
+                // new ButtonBuilder()
+                //     .setLabel('Invite me to your server!')
+                //     .setURL('https://discord.com/api/oauth2/authorize?client_id=1008811174801977494&permissions=2147534912&scope=bot%20applications.commands')
+                //     .setStyle(ButtonStyle.Link)
+                //     .setEmoji('🔗'))
         const Embed = new EmbedBuilder()
             .setTitle('About Me!')
             // .setDescription('About me and the bot!')
@@ -30,7 +30,7 @@ module.exports = {
             .setFooter({ text: 'Made by 96kb' })
             .setColor('#2551F0')
             .addFields(
-                { name: 'About Me And The Bot!', value: '[Click Me!](https://github.com/96kb/KiloBot)', inline: true },
+                { name: 'About Me And The Bot!', value: '[Click Me!](https://github.com/96kb/LowdownBot)', inline: true },
                 { name: 'Github', value: '[Click Me!](https://github.com/96kb)', inline: true },
                 { name: 'Twitter', value: '[Click Me!](https://twitter.com/96kilobytes)', inline: true},
                 { name: 'Discord', value: '96kb#8403', inline: true } )
