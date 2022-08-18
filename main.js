@@ -24,7 +24,7 @@ for (const file of commandFiles) {
 // When the client is ready, run this code (only once)
 client.once('ready', () => {
     console.log('Ready!');
-    client.user.setActivity('tot' , { type: ActivityType.Watching });
+    client.user.setActivity('Baddest - Vibe Chemistry' , { type: ActivityType.Listening });
 });
 
 // Login to Discord with your client's token
