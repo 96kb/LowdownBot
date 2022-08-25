@@ -20,7 +20,7 @@ module.exports = {
                 { name: 'Staff Commands',  value: 'Commands for staff only!'},
                 { name: '`/ban`', value: 'Bans a user from the server' },
                 { name: '`/kick`', value: 'Kicks a user from the server' },
-                { name: '/addrole', value: 'Adds any role to a specific user'}
+                { name: '`/addrole`', value: 'Adds any role to a specific user'}
               )
         interaction.reply({embeds: [Embed]});
     }
