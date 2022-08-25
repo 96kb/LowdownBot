@@ -14,6 +14,15 @@ module.exports = {
         const member = interaction.options.getUser('target');
         const guildbruv = await interaction.guild.members.fetch(member);
         await guildbruv.roles.add(role)
-        await interaction.reply(`${member.username} has been given the ${role.name} role.`);
+        // await interaction.reply(`${member.username} has been given the ${role.name} role.`);
+        const Embed = new EmbedBuilder()
+            .setTitle(`Role Added To User`)
+            .setColor('#2551F0')
+            .setFooter({text: 'LowdownBot | Made by 96kb'})
+            .addFields(
+            {name: 'User', value: member.username, inline: true},
+            {name: 'Role Added', value: role.name, inline: true},
+            );
+       await interaction.reply({ content: '', embeds: [Embed] });
     }
 }
